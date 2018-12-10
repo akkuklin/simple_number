@@ -11,7 +11,6 @@ int main() {
     cout << "Вычисление..." << endl;
     int *array = new int[100000000];
     ofstream output("output.txt");
-    ofstream output2("output2.txt");
     for (long i = 2; i < n; i++){
         for (long j = i * i; j <= n; j+=i){
             if (j > n)

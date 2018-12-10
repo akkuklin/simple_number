@@ -26,6 +26,5 @@ int main() {
     double runtime = (end - start)/(double)CLOCKS_PER_SEC;
     output << "runtime: " << runtime;
     output.close();
-    delete array;
     return 0;
 }
